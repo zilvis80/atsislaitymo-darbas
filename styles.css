@@ -1,0 +1,212 @@
+body {
+  font-family: Hind Madurai;
+  font-weight: 700;
+}
+/*============================
+Nav styl
+=============================*/
+nav {
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 1366px;
+  height: 80px;
+  flex-shrink: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 29px 0 29px;
+  margin-left: 48px;
+}
+nav h1 {
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 32px;
+
+  padding: 18px 0 18px 100px;
+}
+nav ul {
+  padding: 29px 100px 29px 0;
+}
+nav a {
+  text-decoration: none;
+}
+nav h1 a {
+  color: black;
+  line-height: 44px;
+}
+nav ul li a {
+  color: rgba(51, 51, 51, 1);
+}
+nav button {
+  font-family: Hind Madurai;
+
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 16px;
+  border-radius: 4px;
+  background: var(--Primary-100, #1289af);
+  margin-left: 24px;
+}
+nav button a {
+  color: white;
+}
+/*=================================
+Header Style
+================================*/
+header {
+  display: flex;
+  margin: auto;
+  background: url("atsiskaitimo img/Rectangle\ 71.png");
+
+  width: 1366px;
+  height: 688px;
+  flex-shrink: 0;
+}
+header h1 {
+  font-family: Hind Madurai;
+  width: 674px;
+  height: auto;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 62px;
+  color: #fff;
+  letter-spacing: -2.8px;
+}
+header p {
+  color: var(--White, #fff);
+  width: 123px;
+  height: 22px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 4px;
+  margin-top: 24px;
+}
+.content {
+  padding: 191px 592px 311px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btn .youtube {
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  color: var(--White, #fff);
+  background: var(--Primary-100, #1289af);
+
+  margin-top: 32px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+/*=============================
+Footer Style
+=====================*/
+footer {
+  width: 1366px;
+  height: 4148px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+/*====================
+Footer Container
+======================*/
+footer .container {
+  flex-direction: column;
+  padding: 0 298px;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+footer .container .title h1 {
+  width: 174px;
+  height: 40px;
+  color: #333;
+  font-family: Hind Madurai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+footer .container .title p {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 770px;
+  height: 224px;
+  color: #666;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.image {
+  position: absolute;
+}
+.svg {
+  position: absolute;
+  top: 180px;
+  left: 353px;
+}
+/*===================
+footer text
+=====================*/
+.text {
+  flex-direction: column;
+  padding: 0 298px;
+  margin-top: 30rem;
+  justify-content: center;
+}
+.text .chalenge h1 {
+  color: #333;
+  font-family: Hind Madurai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.text .chalenge p {
+  margin-top: 16px;
+  color: #666;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.text .vector h2 {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 0 184px 0 208px;
+  width: 378px;
+  height: 160px;
+  color: #333;
+  font-family: Hind Madurai;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+}
